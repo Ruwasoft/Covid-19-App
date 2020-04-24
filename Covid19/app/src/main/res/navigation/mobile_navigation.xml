@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_status">
+
+
+
+    <fragment
+        android:id="@+id/nav_status"
+        android:name="cf.ruwasoft.covid_19.ui.status.FragmentStatus"
+        android:label="Sri Lanka Status"
+        tools:layout="@layout/fragment_status" />
+
+    <fragment
+        android:id="@+id/nav_world_status"
+        android:name="cf.ruwasoft.covid_19.ui.WorldStates.FragmentWorldStatus"
+        android:label="World Status"
+        tools:layout="@layout/fragment_world_status" />
+
+    <fragment
+        android:id="@+id/nav_health_instru"
+        android:name="cf.ruwasoft.covid_19.ui.HealthInstructions.FragmentHealthInstructions"
+        android:label="Health Instructions"
+        tools:layout="@layout/fragment_health_instructions" />
+
+    <fragment
+        android:id="@+id/nav_rel_auth"
+        android:name="cf.ruwasoft.covid_19.ui.RelevantAuthorities.FragmentRelevantAutorities"
+        android:label="Relevant Authorities"
+        tools:layout="@layout/fragment_relevant_authorities" />
+
+    <fragment
+        android:id="@+id/nav_my_con"
+        android:name="cf.ruwasoft.covid_19.ui.MyConnections.FragmentMyConnections"
+        android:label="My Connections"
+        tools:layout="@layout/fragment_my_connections" />
+
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="cf.ruwasoft.covid_19.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="cf.ruwasoft.covid_19.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+</navigation>

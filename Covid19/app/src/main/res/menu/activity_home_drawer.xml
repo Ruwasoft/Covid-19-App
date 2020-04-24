@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+
+
+        <item
+            android:id="@+id/nav_status"
+            android:title="Sri Lanka Status" />
+
+        <item
+            android:id="@+id/nav_world_status"
+            android:title="World Status" />
+
+        <item
+            android:id="@+id/nav_health_instru"
+            android:title="Health Instructions" />
+
+        <item
+            android:id="@+id/nav_rel_auth"
+            android:title="Relevant Authorities" />
+
+
+
+    </group>
+</menu>
